@@ -17,7 +17,7 @@ _Basic CMS_ is built out in php. The existing backend is currently found at your
 - Image upload supported by dropzone. 
 - automatic menu filled with h1's and h2's pulled from content
 
-This build currently uses local versions of Parsedown, dropzone, clibboard.js, and ImageResize to manage the website's markdown and image uploading/resizing. 
+This build currently uses local versions of [Parsedown](http://parsedown.org/), [dropzone](http://www.dropzonejs.com/), [clibboard.js](https://clipboardjs.com/), and ImageResize to manage the website's markdown and image uploading/resizing. 
 
 ## Install
 
