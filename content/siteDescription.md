@@ -1,0 +1,1 @@
+A Simple cms for single page websites

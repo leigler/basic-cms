@@ -1,0 +1,342 @@
+
+html, body{
+
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFF4;
+	width: 100vw;
+}
+
+body{
+	font-family: courier new, courier;
+	font-weight: lighter;
+	font-size: 18px;
+	background-color: #FFFFF4;
+	
+}
+
+.background{
+	position: fixed;
+	overflow-y: hidden;
+}
+
+::selection{
+	background-color: black;
+	color: white;
+}
+
+.dividers{
+	border-color: black;
+	border-style: dashed;
+    border-width: 1px;
+}
+
+
+/*backend nav*/
+
+
+#menu-button{
+	position: fixed;
+	z-index: 100;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	right: 40px;
+	top: 20px;
+	background-color: black;
+	vertical-align: center;
+	text-align: center;
+	line-height: 60px;
+	font-size: 36px;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+	font-family: helvetica neue;
+}
+
+#save-button > button{
+	position: fixed;
+	z-index: 100;
+	border-radius: 30px;
+	right: 40px;
+	top: 90px;
+	min-width: 100px;
+	
+	font-size: 27px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+.saveButton{
+	background-color: blue;
+	border: solid 1px blue;
+}
+
+.inlinebuttons{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+#menu-button:active, #up-button:active{
+	background-color: gray;
+}
+
+#menu{
+	position: fixed;
+	z-index: 100;
+	height: 50px;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+}
+
+/*backend content*/
+
+#toc, #footer{
+	margin-left: 20px;
+	position: relative;
+	width: 90vw;
+}
+
+
+
+#cms-wrapper{
+
+	width: 90vw;
+	position: relative;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+
+.upfront{
+	top: 0px !important;
+	opacity: 1 !important;
+	transition: top 0.0s, opacity 0.3s;
+}
+
+iframe{
+	border: 1px solid black;
+
+	position: relative;
+	display: block;
+	width: 100vw;
+	max-width: 1440px;
+
+	height: 100vh;
+	margin: 0 auto;
+	margin-top: 0vh;
+	background-color: white;
+
+
+}
+
+
+
+#cms-wrapper > p, #iframe-wrapper > p{
+	margin-bottom: 0px;
+}
+	
+	
+
+
+	/*entry fields: */
+
+	textarea{
+		display: block;
+		margin-top: 10px;
+		transition: 0.2s;
+		letter-spacing: 0px;
+		background-color: white;
+		width:80vw; 
+		max-width: 750px; 
+		resize: none;
+		border-radius: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		font-size: 18px;
+		outline:0;
+		margin-bottom: 10px;
+		/**/
+	}
+
+	.dropzone{
+		/**/
+	}
+
+	.singleRow{
+		
+		height: 20px; 
+		
+		
+
+	}
+
+	#siteTitle:focus, #siteTitle:hover, textarea:hover, iframe:hover {
+	  box-shadow: 0px 0px 10px 0px lightgray;
+	}
+
+
+
+
+	#pageContents{
+		height: 450px; 
+	}
+
+	#pageContents:focus, #pageContents:hover {
+	  box-shadow: 0px 0px 10px 0px lightgray;
+	}
+
+	.dropzone{
+		margin-bottom: 10px;
+		border-radius: 10px;
+
+		width: 80vw;
+		max-width: 750px;
+		border: 1px solid black;
+		
+	}
+
+	.dropzone:focus, .dropzone:active, .dropzone:hover  {
+	  box-shadow: 0px 0px 10px 0px lightgray;
+	}
+
+
+
+
+	/* title and submissions */
+	
+	.info > a{
+		color: black;
+		text-decoration: underline;
+
+	}
+
+	.info > a:hover{
+		color: black;
+	
+	}
+
+	ul{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+	li > a{
+		color: black;
+		text-transform: uppercase;
+		text-decoration: underline;
+
+	}
+
+	li > a:hover{
+		color: black;
+	
+	}
+
+	.label > a{
+		color: black;
+		text-transform: uppercase;
+		text-decoration: underline;
+		
+	}
+
+	.label > a:hover{
+		color: black;
+	
+	}
+
+	button{
+		display: block;
+		font-size: 14px;
+		color: white;
+		background-color: black;
+		border: 1px solid black;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.2s;
+		outline: none;
+		transition: 0.2s;
+		
+	}
+
+	button:hover, #menu-button:hover {
+		
+		box-shadow: 0px 0px 7px 0px gray;
+	}
+
+	button:active {
+	  background-color: gray;
+	}
+
+
+
+
+	.label{
+		font-size: 18px;
+		color: black;
+		padding-top: 18px;
+		margin-top: 0px;
+		text-shadow: 1px 1px 10px white;
+	}
+
+	
+
+	.info{
+		font-size: 14px;
+		color: black;
+		padding: 0px;
+		margin: 0px;
+		margin-left: 32px;
+		margin-top: 5px;
+		width: 40vw;
+		max-width: 750px;
+		
+
+	}
+
+	.uploads{
+		width: 100px;
+		margin: 10px;
+		border-radius: 10px;
+		border: 1px solid black;
+		transition: 0.2s;
+		cursor: pointer;
+		outline:0;
+	}
+
+	.uploads:active {
+	  opacity: 0.3;
+	}
+
+
+	.uploads:hover{
+		box-shadow: 0px 0px 10px 0px lightgray;
+	}
+
+	#image-saved{
+
+	}
+
+	.active{
+		background-color: black;
+		padding-left: 3px;
+		padding-right: 3px;
+		color: yellow;
+	}
+
+
+
+
+
+
+
+

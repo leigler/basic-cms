@@ -1,0 +1,36 @@
+[04-Dec-2016 16:44:31 America/Denver] PHP Warning:  scandir(uploads): failed to open dir: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/altering.php on line 44
+[04-Dec-2016 16:44:31 America/Denver] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/altering.php on line 44
+[04-Dec-2016 16:44:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/lukasism/public_html/happening/basic-cms/modify/altering.php on line 46
+[04-Dec-2016 16:46:21 America/Denver] PHP Warning:  move_uploaded_file(../../uploads/backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/uploads.php on line 14
+[04-Dec-2016 16:46:21 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9eTnTT' to '../../uploads/backdrop-11.jpg' in /home2/lukasism/public_html/happening/basic-cms/modify/uploads.php on line 14
+[04-Dec-2016 16:46:47 America/Denver] PHP Warning:  move_uploaded_file(../../uploads/backdrop-16.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/uploads.php on line 14
+[04-Dec-2016 16:46:47 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpvG1sAV' to '../../uploads/backdrop-16.jpg' in /home2/lukasism/public_html/happening/basic-cms/modify/uploads.php on line 14
+[03-Jan-2017 08:06:55 America/Denver] PHP Notice:  Undefined index: date in /home2/lukasism/public_html/happening/basic-cms/modify/saving.php on line 9
+[03-Jan-2017 08:08:41 America/Denver] PHP Notice:  Undefined index: date in /home2/lukasism/public_html/happening/basic-cms/modify/saving.php on line 9
+[03-Jan-2017 08:09:46 America/Denver] PHP Notice:  Undefined index: date in /home2/lukasism/public_html/happening/basic-cms/modify/saving.php on line 9
+[05-Jan-2017 10:19:45 America/Denver] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home2/lukasism/public_html/happening/basic-cms/modify/uploads.php on line 16
+[05-Jan-2017 10:25:12 America/Denver] PHP Warning:  getimagesize(Abney_park_cemetery_2.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:12 America/Denver] PHP Warning:  getimagesize(IMG_1528-small.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:12 America/Denver] PHP Warning:  getimagesize(backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:12 America/Denver] PHP Warning:  getimagesize(image001.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:16 America/Denver] PHP Warning:  getimagesize(Abney_park_cemetery_2.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:16 America/Denver] PHP Warning:  getimagesize(IMG_1528-small.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:16 America/Denver] PHP Warning:  getimagesize(backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:25:16 America/Denver] PHP Warning:  getimagesize(image001.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:04 America/Denver] PHP Warning:  getimagesize(Abney_park_cemetery_2.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:04 America/Denver] PHP Warning:  getimagesize(IMG_1528-small.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:04 America/Denver] PHP Warning:  getimagesize(backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:04 America/Denver] PHP Warning:  getimagesize(image001.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:38 America/Denver] PHP Warning:  getimagesize(Abney_park_cemetery_2.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:38 America/Denver] PHP Warning:  getimagesize(IMG_1528-small.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:38 America/Denver] PHP Warning:  getimagesize(backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:26:38 America/Denver] PHP Warning:  getimagesize(image001.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:27:01 America/Denver] PHP Warning:  getimagesize(uploads/Abney_park_cemetery_2.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:27:01 America/Denver] PHP Warning:  getimagesize(uploads/IMG_1528-small.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:27:01 America/Denver] PHP Warning:  getimagesize(uploads/backdrop-11.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:27:01 America/Denver] PHP Warning:  getimagesize(uploads/image001.jpg): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 92
+[05-Jan-2017 10:27:32 America/Denver] PHP Notice:  Array to string conversion in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 93
+[05-Jan-2017 10:28:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 93
+[05-Jan-2017 10:35:43 America/Denver] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 99
+[05-Jan-2017 10:35:45 America/Denver] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 99
+[05-Jan-2017 10:36:43 America/Denver] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home2/lukasism/public_html/happening/basic-cms/modify/index.php on line 99

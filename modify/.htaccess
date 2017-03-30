@@ -1,0 +1,5 @@
+# you need to uncomment (remove the #) all of these lines:
+# AuthType Basic  
+# AuthName "restricted area"  
+# AuthUserFile /YOUR FILE PATH HERE/modify/.htpasswd  
+# require valid-user

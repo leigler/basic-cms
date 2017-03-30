@@ -1,0 +1,215 @@
+/*
+
+@charset "utf-8";*/
+
+
+/************* fonts *************/
+
+@font-face {
+    font-family: 'sporting-grotesque';
+    src: url(../fonts/sporting_grotesque_normal.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'sporting-grotesque';
+    src: url(../fonts/sporting_grotesque_gras.otf);
+    font-weight: bold;
+}
+
+/* open source font from http://www.velvetyne.fr/fonts/sporting-grotesque/ */
+
+
+
+
+
+/************* Body *************/
+
+::selection{
+
+	background-color: blue;
+	color: white;
+}
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+body, html{
+	display: block;
+	margin: 0px;
+	width: 100vw;
+	overflow-x: hidden;
+	min-height: 100vh;
+	padding: 0px;
+	background-color: orange;
+}
+
+
+/*
+
+-set max width for content (for wide screens) and child elements
+-small screens + mobile
+
+*/
+
+#site-title{
+	font-size: 70px;
+	font-family: 'sporting-grotesque';
+	font-weight: bold;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 70px;
+}
+
+#site-title > a{
+	text-decoration: none;
+	color: black;
+}
+
+#site-title > a:hover{
+	color: blue;
+}
+
+.content{
+	display: block;
+	width: 80vw;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 300px;
+	margin-top: 54px;
+	z-index: 10;
+
+}
+
+
+
+
+/************* h1-p un-styling *************/
+
+
+
+
+h1, h2, h3, h4, h5, h6, p, li{
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	color: black;
+	font-family: 'sporting-grotesque', arial;
+	font-weight: normal;
+	display: inline;
+}
+
+a{
+	color: blue;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: blue;
+}
+
+
+p > img, h2 > img, h3 > img {
+	width: 40vw;
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+h1{
+	/*header site title*/
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 70px;
+
+   
+}
+
+h2{
+	/* header project right quote */
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+
+
+h3{
+	/* header project middle large */
+	
+}
+
+
+
+p{
+	display: block;
+	font-size: 25px;
+	width: 80vw;
+	max-width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.content > p{
+	margin-bottom: 25px;
+}
+
+
+li{
+	display: list-item;
+	font-size: 25px;
+}
+
+ul{
+	list-style: none;
+}
+
+
+ul > li:before { 
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: blue;
+	margin-left: -30px;
+	margin-right: 10px;
+
+ }
+
+/****************** Extraneous styling ******************/
+
+/* MENU STYLING */
+
+.title-tags{
+	display: block;
+	font-size: 25px;
+	font-family: 'sporting-grotesque';
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.title-tags:hover{
+	color: black;
+}

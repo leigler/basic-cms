@@ -1,0 +1,26 @@
+[29-Nov-2016 19:52:55 America/Denver] PHP Warning:  file_get_contents(content.md): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:52:57 America/Denver] PHP Warning:  file_get_contents(content.md): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:53:08 America/Denver] PHP Warning:  file_get_contents(content.md): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:53:23 America/Denver] PHP Warning:  file_get_contents(content.md): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:53:44 America/Denver] PHP Warning:  file_get_contents(content.md): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:54:06 America/Denver] PHP Warning:  file_get_contents(content.txt): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:54:16 America/Denver] PHP Warning:  file_get_contents(content.txt): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 19:55:21 America/Denver] PHP Warning:  file_get_contents(content.txt): failed to open stream: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 5
+[29-Nov-2016 20:39:25 America/Denver] PHP Notice:  Undefined index: data in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 10
+[29-Nov-2016 20:40:10 America/Denver] PHP Notice:  Undefined index: data in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 10
+[29-Nov-2016 21:41:28 America/Denver] PHP Warning:  scandir(/uploads): failed to open dir: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 42
+[29-Nov-2016 21:41:28 America/Denver] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 42
+[29-Nov-2016 21:41:34 America/Denver] PHP Warning:  scandir(/uploads): failed to open dir: No such file or directory in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 42
+[29-Nov-2016 21:41:34 America/Denver] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 42
+[04-Dec-2016 13:46:37 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 111
+[04-Dec-2016 13:46:39 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 111
+[04-Dec-2016 13:46:40 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 111
+[04-Dec-2016 13:46:48 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 111
+[04-Dec-2016 13:46:50 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home2/lukasism/public_html/happening/basic-cms/altering.php on line 111
+[04-Dec-2016 16:09:00 America/Denver] PHP Fatal error:  Class 'Parsedown' not found in /home2/lukasism/public_html/happening/basic-cms/index.php on line 7
+[04-Dec-2016 16:09:03 America/Denver] PHP Fatal error:  Class 'Parsedown' not found in /home2/lukasism/public_html/happening/basic-cms/index.php on line 7
+[04-Dec-2016 16:09:04 America/Denver] PHP Fatal error:  Class 'Parsedown' not found in /home2/lukasism/public_html/happening/basic-cms/index.php on line 7
+[04-Dec-2016 16:09:23 America/Denver] PHP Fatal error:  Class 'Parsedown' not found in /home2/lukasism/public_html/happening/basic-cms/index.php on line 7
+[04-Dec-2016 16:09:25 America/Denver] PHP Fatal error:  Class 'Parsedown' not found in /home2/lukasism/public_html/happening/basic-cms/index.php on line 7
+[04-Dec-2016 16:10:26 America/Denver] PHP Notice:  Undefined index: title in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 8
+[04-Dec-2016 16:12:40 America/Denver] PHP Notice:  Undefined index: title in /home2/lukasism/public_html/happening/basic-cms/saving.php on line 8
