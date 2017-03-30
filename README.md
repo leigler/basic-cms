@@ -7,7 +7,7 @@ A php markdown-based single page cms.
 
 For many microsites, I've found a single page is enough. The thought is to have a web presence — a type of personal pinboard for a few images and some text. A public facing, easily editable collection of thoughts, projects, whatever, etc.
 
-This _Basic CMS_ tries to be as "web natural" as possible— the website consists of a single markdown page that is translated/styled through simple css. _Basic CMS_ exploits existing html structures (specifically the h1-p tags) to allow for a modular page. One can give each tag different typographic parameters that, when added together, create a fluid typographic landscape.
+This _Basic CMS_ tries to be as "web natural" as possible— the website consists of a single [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) page that is translated/styled through simple css. _Basic CMS_ exploits existing html structures (specifically the h1-p tags) to allow for a modular page. One can give each tag different typographic parameters that, when added together, create a fluid typographic landscape.
 
 ## Structure/Features
 
