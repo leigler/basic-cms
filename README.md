@@ -17,7 +17,7 @@ This build currently uses local versions of Parsedown, dropzone, clibboard.js, a
 
 ## Install
 
-1. Download or clone this page. 
+1. Download or clone this repo. 
 2. place contents into a directory of your choice. 
 3. Make sure you reveal your [hidden files](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 4. In the /modify folder, edit the .htaccess and .htpasswd files to reflect the proper filepath and username/password. (I'd recommend this [site](http://www.htaccesstools.com/htpasswd-generator/) to generate your .htpasswd and .htaccess files)
