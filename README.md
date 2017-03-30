@@ -11,9 +11,11 @@ This _Basic CMS_ tries to be as "web natural" as possible— the website consist
 
 ## Structure/Features
 
-_Basic CMS_ is built out in basic php. The existing backend is currently found at yoururl/modify and is protected by simple htaccess and htpasswd files. These need to be updated for any install. 
+_Basic CMS_ is built out in php. The existing backend is currently found at yoururl/modify and is protected by simple htaccess and htpasswd files. _These need to be updated for any install_. 
 
-Content iterations are archived with each save. 
+- Content iterations are archived with each save. 
+- Image upload supported by dropzone. 
+- automatic menu filled with h1's and h2's pulled from content
 
 This build currently uses local versions of Parsedown, dropzone, clibboard.js, and ImageResize to manage the website's markdown and image uploading/resizing. 
 
