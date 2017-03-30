@@ -1,3 +1,4 @@
+![site image](build/site-image.png)
 # Basic CMS
 A php markdown-based single page cms. 
 
