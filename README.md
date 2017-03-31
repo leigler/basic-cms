@@ -11,7 +11,7 @@ This _Basic CMS_ tries to be as "web natural" as possible— the website consist
 
 ## Structure/Features
 
-_Basic CMS_ is built out in php. The existing backend is currently found at yoururl/modify and is protected by simple htaccess and htpasswd files. _These need to be updated for any install_. 
+_Basic CMS_ is built out in php. The existing backend is currently found at /modify and is protected by simple htaccess and htpasswd files. _These need to be updated for any install_. 
 
 - Content iterations are archived with each save. 
 - Image upload supported by dropzone. 
@@ -26,3 +26,10 @@ This build currently uses local versions of [Parsedown](http://parsedown.org/), 
 3. Make sure you reveal your [hidden files](http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).
 4. In the /modify folder, edit the .htaccess and .htpasswd files to reflect the proper filepath and username/password. (I'd recommend this [site](http://www.htaccesstools.com/htpasswd-generator/) to generate your .htpasswd and .htaccess files)
 5. Edit the /build folder to customize any css, js etc. 
+
+## Examples
+- [reidhoyt.com](http://www.reidhoyt.com)
+- [fullybooked.ae](http://www.fullybooked.ae)
+
+## Further Notes
+Project is still in beta, meaning that file structure and code are still being made more user friendly. 
